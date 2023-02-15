@@ -1,0 +1,71 @@
+﻿Test Cases for E-Commerce Website in Excel,,,,,,,,,,
+,,,,,,,,,,
+Example 01: E-Commerce Product Description,,,,,,,,,,
+,,,,,,,,,,
+Module,Product Description,,Test Data Input,User ID & Password,,,,,,
+Test Scenario,Verification of the details on product specification,,Tester,Raphael,,,,,,
+,,,,,,,,,,
+ID,Test Case ,Requirements,Test Step,Expected Outcome,Actual Outcome,Status,Comments,,,
+TC_1a,Verify that images of product are displayed correctly.,"1. Browser opened
+2. Internet connection
+3. URL entered","1. Keep Scrolling the home page
+2. Click on a product from the home page","1. Product images should be shown correctly
+2. Images will be enlarged on mouse hover",Images shown but zoom-in effect not working,Fail,,,,
+TC_2a,Verification of Product Price,"1. Browser opened
+2. Site URL entered
+3. User logged in","1. Keep Scrolling the home page
+2. Click on a product from the home page",Product price should be displayed correctly,As expected,Pass,,,,
+TC_3a,Checking Product deals calculation,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on a product,"If there is any discount, then product price will be adjusted",Discount is not properly calculated,Fail,,,,
+TC_4a,Verification of Product Specification,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on a product,Specification about that product will be shown,As expected,Pass,,,,
+TC_5a,Checking Stock Information,"1. Browser opened
+2. Site URL entered
+3. User logged in",Press on any product from the home page,"Production stock information (In Stock, Out of Stock, Upcoming, and its Quantity) will be shown","Quantity is not showing, else as expected",Fail,,,,
+TC_6a,Checking of Seller Rating display,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on a product from the home page,Seller Rating is displayed,As expected,Pass,,,,
+TC_7a,Checking of product comments,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on a product on home page,Customer comments should be displayed,As expected,Pass,,,,
+TC_8a,Checking display of all variation of a product,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on a product on home page,"1. Product details will be shown
+2. All variations (color, size, etc.) of the product will be shown","Additional sizes are not shown, additional colors are displayed",Fail,,,,
+TC_9a,Verification of Product shipping information,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on any product,User will get the product specification and shipping information will be displayed under the product image,As expected,Pass,,,,
+TC_10a,Verification of product suggestions related to product are displayed,"1. Browser opened
+2. Site URL entered
+3. User logged in",Click on a product,Product suggestions should be displayed,N/A,Skip,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Example 02: E-Commerce Customer Care,,,,,,,,,,
+,,,,,,,,,,
+Module,Customer Care,,Test Data Input,User ID & Password,Testing Date,11-Dec,,,,
+Test Scenario,Verification of the details on Customer Care,,Tester,Jacob,Authorized by,Raphael,,,,
+,,,,,,,,,,
+ID,Test Case ,Pre-requisites,Test Step,Expected Result,Actual Result,Status,Comments,,,
+TC_1b,Verification of the display of the customer care service at the bottom of the site,"1. Browser Installed and Opened
+2. Stable Internet Connection
+3. Website URL entered",Scroll to the bottom of the home page,Customer care service is displayed correctly on the bottom of the site,As expected,Pass,,,,
+TC_2b,Checking different modes of customer care service are displayed correctly,"1. Browser Installed and Opened
+2. Stable Internet Connection
+3. Website URL entered
+4. User logged in",Click on Customer Care button,"Different modes of customer care service (Email, Chat or Call) are shown",As expected,Pass,,,,
+TC_3b,Verification of the display of waiting time to connect to customer care,"1. Browser Installed and Opened
+2. Stable Internet Connection
+3. Website URL entered
+4. User logged in","1. Click on Customer care
+2. Pick any customer care mode","1. Customer care page is shown
+2. Waiting time is displayed",Not showing,Fail,,,,
+TC_4b,Checking available languages for customer care,"1. Browser Installed and Opened
+2. Stable Internet Connection
+3. Website URL entered
+4. User logged in",Click on Customer Care button,"Display of customer care page with all possible languages (Spanish, English, Norwegian, German, and Portuguese)",Spanish missing,Fail,,,,
+TC_5b,Verification of display of customer care service probable timings,"1. Browser Installed and Opened
+2. Stable Internet Connection
+3. Website URL entered
+4. User logged in",Click on Customer Care button,Timings for different modes of customer care are shown,As expected,Pass,,,,
